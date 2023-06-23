@@ -92,6 +92,7 @@ Novos arquivos e funções podem ser criados conforme a necessidade da sua imple
 <details>
   <summary><strong>🐍 Versão do Python</strong></summary>
   A versão do Python utilizada neste projeto é a 3.10.6.
+</details>
 
 <details>
   <summary><strong>🏕️ Ambiente Virtual</strong></summary><br />
@@ -166,22 +167,6 @@ Novos arquivos e funções podem ser criados conforme a necessidade da sua imple
   Se quiser saber mais sobre a instalação de dependências com `pip`, veja esse [artigo](https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1).
 </details>
 
-<details>
-  <summary><strong>🤝 Depois de terminar o desenvolvimento (opcional)</strong></summary><br />
-
-  Para sinalizar que o seu projeto está pronto para o _"Code Review"_, faça o seguinte:
-
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-025-b`.
-
-  Caso tenha alguma dúvida veja este [video explicativo](https://vimeo.com/362189205).
-
-</details>
 
 # Requisitos Obrigatórios
 
