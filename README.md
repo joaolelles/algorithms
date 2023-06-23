@@ -20,68 +20,6 @@ Resolver problemas/Otimizar algoritmos sob pressão.
 
 </details>
 
-
-# Orientações
-
-<details>
-  <summary><strong>⚠️ Antes de começar a desenvolver</strong></summary><br />
-
-  1. Clone o repositório
-
-  2. Crie o ambiente virtual para o projeto
-
-* `python3 -m venv .venv && source .venv/bin/activate`
-
-  3. Instale as dependências
-
-* `python3 -m pip install -r dev-requirements.txt`
-  
-  4. Crie uma branch a partir da branch `master`
-
-* Verifique que você está na branch `master`
-  * Exemplo: `git branch`
-* Se não estiver, mude para a branch `master`
-  * Exemplo: `git checkout master`
-* Crie uma branch à qual você vai submeter os `commits` do seu projeto
-  * Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-
-  5. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-
-* Verifique que as mudanças ainda não estão no _stage_
-  * Exemplo: `git status` (deve aparecer listada a pasta _joaozinho_ em vermelho)
-* Adicione o novo arquivo ao _stage_ do Git
-  * Exemplo:
-    * `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-    * `git status` (deve aparecer listado o arquivo _joaozinho/README.md_ em verde)
-* Faça o `commit` inicial
-  * Exemplo:
-    * `git commit -m 'iniciando o projeto x'` (fazendo o primeiro commit)
-    * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-  6. Adicione a sua branch com o novo `commit` ao repositório remoto
-
-* Usando o exemplo anterior: `git push -u origin joaozinho-sd-025-b-project-algorithms`
-
-  7. Crie um novo `Pull Request` _(PR)_
-
-</details>
-
-<details>
-  <summary><strong>⌨️ Durante o desenvolvimento</strong></summary><br />
-
-* Faça `commits` das alterações que você fizer no código regularmente
-
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-* Os comandos que você utilizará com mais frequência são:
-    1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-    2. `git add` _(para adicionar arquivos ao stage do Git)_
-    3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-    4. `git push -u origin nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-    5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
-</details>
-
 <details>
   <summary><strong>🧱 Estrutura do Projeto</strong></summary><br />
 
@@ -154,14 +92,6 @@ Novos arquivos e funções podem ser criados conforme a necessidade da sua imple
 <details>
   <summary><strong>🐍 Versão do Python</strong></summary>
   A versão do Python utilizada neste projeto é a 3.10.6.
-
-  Não se preocupe: você pode continuar desenvolvendo com versões anteriores que tudo deve funcionar corretamente tanto localmente quanto no avaliador remoto.
-
-  Se optar por utilizar a versão 3.10.6 ao invés de versões anteriores, poderá utiliza novas funcionalidades da linguagem durante a resolução dos problemas.
-
-  Você pode aprender a controlar as versões do Python instaladas em sua máquina por meio do [pyenv](https://app.betrybe.com/course/real-life-engineer/python#pyenv-opcional).  
-  Para utilizar uma versão específica do Python, você pode utilizar o comando `pyenv local 3.x.y` para especificar uma versão para um diretório e `pyenv global 3.x.y` para especificar a versão do sistema inteiro.
-</details>
 
 <details>
   <summary><strong>🏕️ Ambiente Virtual</strong></summary><br />
@@ -250,35 +180,6 @@ Novos arquivos e funções podem ser criados conforme a necessidade da sua imple
   * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-025-b`.
 
   Caso tenha alguma dúvida veja este [video explicativo](https://vimeo.com/362189205).
-
-</details>
-
-<details>
-  <summary><strong>🕵🏿 Revisando um pull request</strong></summary><br />
-
-  Use o conteúdo sobre [Code Review](https://app.betrybe.com/course/real-life-engineer/code-review) para te ajudar a revisar os _Pull Requests_.
-</details>
-
-<details>
-  <summary><strong>🗣 Nos dê feedbacks sobre o projeto!</strong></summary><br />
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário.
-**Leva menos de 3 minutos!**
-
-[FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH#cohort_hidden=CH25-B&template=betrybe/sd-0x-project-algorithms)
-
-</details>
-
-<details>
-  <summary><strong>🗂 Compartilhe seu portfólio!</strong></summary><br />
-
-  Agora que você finalizou os requisitos, chegou a hora de mostrar ao mundo que você aprendeu algo novo! 🚀
-
-   Siga esse [**guia que preparamos com carinho**](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/a3cac6d2-5060-445d-81f4-ea33451d8ea4/section/d4f5e97a-ca66-4e28-945d-9dd5c4282085/day/eff12025-1627-42c6-953d-238e9222c8ff/lesson/49cb103b-9e08-4ad5-af17-d423a624285a) para disponibilizar o projeto finalizado no seu GitHub pessoal.
-
-   Esse passo é super importante para ganhar mais visibilidade no mercado de trabalho, mas também é útil para manter um back-up do seu trabalho.
-
-   E você sabia que o LinkedIn é a principal rede social profissional e compartilhar o seu aprendizado lá é muito importante para quem deseja construir uma carreira de sucesso? Compartilhe esse projeto no seu LinkedIn, marque o perfil da Trybe (@trybe) e mostre para a sua rede toda a sua evolução.
 
 </details>
 
